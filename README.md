@@ -1,9 +1,13 @@
-# markdown_local_selfcss
-改变使用浏览器直接打开.md文件时的样式
+# static
+用于存放一些静态资源
 
 ## 使用方式
-在markdown文件的末尾或第一行加下如下代码:
+
+`https://raw.githubusercontent.com/xiafl/static/master/` 作为根路径，  
+项目中的其它资源，则相对于这个路径就好了  
+  
+如 项目中的 markdown/local_self.css:
 ```
-<link rel="stylesheet" type="text/css" href="https://github.com/xiafl/markdown_local_selfcss/edit/master/markdown_self.css" />
+<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/xiafl/static/master/markdown/local_self.css" />
 ```
 
