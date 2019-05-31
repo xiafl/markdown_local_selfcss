@@ -15,8 +15,9 @@
     }
 }
 
-div#markdown-outline{
-	display: block;
+#markdown-outline{
+	display: block !important;
+	right: 10px !important;
 }
 
 
